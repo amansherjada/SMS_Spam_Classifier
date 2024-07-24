@@ -20,12 +20,12 @@ This repository contains a machine learning project for classifying SMS messages
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sms-spam-classifier.git
+   git clone https://github.com/amansherjada/SMS_Spam_Classifier.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd sms-spam-classifier
+   cd SMS_Spam_Classifier
    ```
 
 3. Install dependencies:
@@ -76,9 +76,3 @@ The repository includes multiple machine learning models:
 - XGBoost
 
 The models are evaluated based on accuracy and precision, with a focus on precision due to the imbalanced nature of the dataset.
-
-## Acknowledgements
-
-- [Scikit-learn](https://scikit-learn.org/) for machine learning tools.
-- [Streamlit](https://streamlit.io/) for the interactive web app.
-- [NLTK](https://www.nltk.org/) for text processing.
