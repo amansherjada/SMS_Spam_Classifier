@@ -7,7 +7,8 @@ from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 ps = PorterStemmer()
-
+nltk.download('punkt')
+nltk.download('stopwords')
 
 def transform_text(text):
     text = text.lower()
