@@ -1,7 +1,6 @@
 # SMS Spam Classifier
 
 This repository contains a machine learning project for classifying SMS messages as spam or not spam. The project includes a Streamlit web app for real-time prediction, a Jupyter notebook with data exploration and preprocessing, and various machine learning models for classification.
-Got it! Here's the updated description with the additional information:
 
 - **Model Details**: I utilized TF-IDF combined with Multinomial Naive Bayes (MNB) to achieve a perfect precision score of 1.0. This approach ensures that spam messages are accurately classified with minimal false positives.
 - **Live Model**: You can interact with the spam classifier live on [Streamlit](https://amansmsfilter.streamlit.app/).
